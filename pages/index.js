@@ -1,9 +1,18 @@
-import styles from '../styles/Home.module.css'
+import React from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import HeroSection from "../components/Home/HeroSection";
+import Mission from "../components/Home/Mission";
+import Reviews from "../components/Home/Reviews";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <div className="text-2xl font-medium text-gray-900 title-font mb-2">Hello World!</div>
+    <div>
+      <Header />
+      <HeroSection />
+      <Mission />
+      <Reviews />
+      <Footer />
     </div>
-  )
+  );
 }

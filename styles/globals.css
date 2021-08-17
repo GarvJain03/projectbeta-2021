@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
+* {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
 }
 
 a {
@@ -15,6 +15,56 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+body.dark {
+  background-color: #111827;
+  transition: 0.5s;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.toggleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  background-color: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  height: 2rem;
+  width: 3.7rem;
+}
+
+.ball {
+  background-color: #fff;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 27.5px;
+  width: 27.5px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(27px);
 }
