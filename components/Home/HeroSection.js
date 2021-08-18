@@ -54,7 +54,7 @@ function HeroSection() {
         </div>
       </section>
       <a className="icon-container" href="#mission">
-        <FontAwesomeIcon icon={faAngleDown} className="icon vert-move" />
+        <FontAwesomeIcon icon={faAngleDown} className="icon animate-bounce" />
       </a>
     </div>
   );
