@@ -20,7 +20,7 @@ export default function Features() {
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Microdosing synth tattooed vexillologist
+              FEATURES
             </h1>
             <p className="mb-8 leading-relaxed">
               Meggings kinfolk echo park stumptown DIY, kale chips beard

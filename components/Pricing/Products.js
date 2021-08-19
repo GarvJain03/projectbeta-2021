@@ -28,7 +28,7 @@ function Products() {
                   CATEGORY
                 </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  The Catalyzer
+                  R2D2
                 </h2>
                 <p className="mt-1">$16.00</p>
               </div>
@@ -46,7 +46,7 @@ function Products() {
                   CATEGORY
                 </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Shooting Stars
+                  R2D3
                 </h2>
                 <p className="mt-1">$21.15</p>
               </div>
@@ -64,7 +64,7 @@ function Products() {
                   CATEGORY
                 </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Neptune
+                  R3D1
                 </h2>
                 <p className="mt-1">$12.00</p>
               </div>
@@ -82,7 +82,7 @@ function Products() {
                   CATEGORY
                 </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  The 400 Blows
+                  R3D2
                 </h2>
                 <p className="mt-1">$18.40</p>
               </div>
@@ -100,7 +100,7 @@ function Products() {
                   CATEGORY
                 </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  The Catalyzer
+                  R4D2
                 </h2>
                 <p className="mt-1">$16.00</p>
               </div>
@@ -118,7 +118,7 @@ function Products() {
                   CATEGORY
                 </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Shooting Stars
+                  R4D3
                 </h2>
                 <p className="mt-1">$21.15</p>
               </div>
@@ -136,7 +136,7 @@ function Products() {
                   CATEGORY
                 </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Neptune
+                  R5D1
                 </h2>
                 <p className="mt-1">$12.00</p>
               </div>
@@ -154,7 +154,7 @@ function Products() {
                   CATEGORY
                 </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  The 400 Blows
+                  R5D2
                 </h2>
                 <p className="mt-1">$18.40</p>
               </div>

@@ -20,14 +20,14 @@ function BuyNow() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-4 py-3">Start</td>
+                  <td className="px-4 py-3">R2D2</td>
                   <td className="px-4 py-3 text-lg text-gray-900">Free</td>
                   <td className="w-10 text-center">
                     <input name="plan" type="radio" />
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-t-2 border-gray-200 px-4 py-3">Pro</td>
+                  <td className="border-t-2 border-gray-200 px-4 py-3">R2D3</td>
                   <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
                     $24
                   </td>
@@ -37,7 +37,7 @@ function BuyNow() {
                 </tr>
                 <tr>
                   <td className="border-t-2 border-gray-200 px-4 py-3">
-                    Business
+                    R3D1
                   </td>
                   <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
                     $50
@@ -48,7 +48,51 @@ function BuyNow() {
                 </tr>
                 <tr>
                   <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
-                    Exclusive
+                    R3D2
+                  </td>
+                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                    $72
+                  </td>
+                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio" />
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                    R4D2
+                  </td>
+                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                    $72
+                  </td>
+                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio" />
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                    R4D3
+                  </td>
+                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                    $72
+                  </td>
+                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio" />
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                    R5D1
+                  </td>
+                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
+                    $72
+                  </td>
+                  <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                    <input name="plan" type="radio" />
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                    R5D2
                   </td>
                   <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">
                     $72
