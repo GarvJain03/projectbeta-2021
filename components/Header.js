@@ -37,6 +37,9 @@ function Header() {
             <span className="mr-5 hover:text-gray-900">
               <Link href="/pricing">Pricing</Link>
             </span>
+            <span className="mr-5 hover:text-gray-900">
+              <Link href="/gallery">Gallery</Link>
+            </span>
           </nav>
           <button className="inline-flex items-center border-0 py-1 px-3 mt-4 md:mt-0">
             <Toggle />
