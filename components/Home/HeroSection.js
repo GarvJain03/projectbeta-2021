@@ -1,9 +1,7 @@
-/* eslint-disable @next/next/link-passhref */
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
-import R2D2 from "../../public/R2.png";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import { appName } from "../../lib/constants";
@@ -33,25 +31,23 @@ function HeroSection() {
               between humans and machines.
             </p>
             <div className="flex justify-center">
-              <Link href="/features">
-                <button
-                  style={{
-                    borderRadius: "20px",
-                    filter:
-                      "drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25))",
-                  }}
-                  className="transition duration-500 ease-in-out inline-flex text-gray-900 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 rounded text-lg"
-                >
-                  Read More
-                </button>
-              </Link>
+              <button
+                style={{
+                  borderRadius: "20px",
+                  filter:
+                    "drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25))",
+                }}
+                className="transition duration-500 ease-in-out inline-flex text-gray-900 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 rounded text-lg"
+              >
+                <Link href="/features">Read More</Link>
+              </button>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <Image
+            <img
               className="object-cover object-cover rounded"
               alt="R2D2"
-              src={R2D2}
+              src="https://media.discordapp.net/attachments/869407124223053868/877972580349407232/R2.png?width=814&height=610"
             />
           </div>
         </div>

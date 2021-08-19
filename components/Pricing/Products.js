@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 
 function Products() {
   return (
@@ -17,13 +17,10 @@ function Products() {
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative h-48 rounded overflow-hidden">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="https://media.discordapp.net/attachments/869407124223053868/877972580349407232/R2.png?width=814&height=610"
-                  width="50"
-                  height="50"
-                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -38,13 +35,10 @@ function Products() {
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative h-48 rounded overflow-hidden">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="https://media.discordapp.net/attachments/869407124223053868/877972586049466428/R2_2.png?width=814&height=610"
-                  width="50"
-                  height="50"
-                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -59,13 +53,10 @@ function Products() {
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative h-48 rounded overflow-hidden">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="https://media.discordapp.net/attachments/869407124223053868/877972588461166602/R2_1.png?width=814&height=610"
-                  width="50"
-                  height="50"
-                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -80,13 +71,10 @@ function Products() {
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative h-48 rounded overflow-hidden">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="https://media.discordapp.net/attachments/869407124223053868/877972590491230299/R2_4.png?width=814&height=610"
-                  width="50"
-                  height="50"
-                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -101,13 +89,10 @@ function Products() {
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative h-48 rounded overflow-hidden">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="https://media.discordapp.net/attachments/869407124223053868/877972592366088264/R2_3.png?width=814&height=610"
-                  width="50"
-                  height="50"
-                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -122,13 +107,10 @@ function Products() {
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative h-48 rounded overflow-hidden">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="https://media.discordapp.net/attachments/869407124223053868/877972595046240337/R2_5.png?width=814&height=610"
-                  width="50"
-                  height="50"
-                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -143,13 +125,10 @@ function Products() {
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative h-48 rounded overflow-hidden">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="https://media.discordapp.net/attachments/869407124223053868/877972596279361546/R2_6.png?width=814&height=610"
-                  width="50"
-                  height="50"
-                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -164,13 +143,10 @@ function Products() {
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative h-48 rounded overflow-hidden">
-                <Image
+                <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="https://media.discordapp.net/attachments/869407124223053868/877972596606505040/R2_7.png?width=814&height=610"
-                  width="50"
-                  height="50"
-                  layout="fill"
                 />
               </a>
               <div className="mt-4">

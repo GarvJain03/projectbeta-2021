@@ -1,8 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Banner from "../public/Banner.png";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Features() {
@@ -11,10 +10,13 @@ export default function Features() {
       <Header />
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-12 items-center justify-center flex-col">
-          <Image
+          <img
             className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
             alt="hero"
-            src={Banner}
+            src="https://media.discordapp.net/attachments/869407124223053868/877976704444952626/Banner.png"
+            width="100"
+            height="100"
+            layout="fill"
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
