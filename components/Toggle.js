@@ -15,8 +15,8 @@ function Toggle() {
         id="checkbox"
       />
       <label htmlFor="checkbox" className="label" id="label">
-        <FontAwesomeIcon class="fa-moon" icon={faMoon} />
-        <FontAwesomeIcon class="fa-sun" icon={faSun} />
+        <FontAwesomeIcon className="fa-moon" icon={faMoon} />
+        <FontAwesomeIcon className="fa-sun" icon={faSun} />
         <div className="ball" id="ball"></div>
       </label>
     </div>
