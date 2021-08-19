@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -31,7 +32,7 @@ function Reviews() {
                 <a className="inline-flex items-center">
                   <img
                     alt="testimonial"
-                    src="https://dummyimage.com/106x106"
+                    src="https://media.discordapp.net/attachments/863776406537240576/868185043003121694/user-placeholder.png?width=610&height=610"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
@@ -56,12 +57,12 @@ function Reviews() {
                 <p className="leading-relaxed mb-6">
                   I would like to sum up my experience with Artoo in just one
                   word, marvellous. The performance it has delivered overtime is
-                  mindblowind and is definitely a value for your time and money.
+                  mindblowing and is definitely a value for your time and money.
                 </p>
                 <a className="inline-flex items-center">
                   <img
                     alt="testimonial"
-                    src="https://dummyimage.com/106x106"
+                    src="https://media.discordapp.net/attachments/863776406537240576/868185043003121694/user-placeholder.png?width=610&height=610"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">

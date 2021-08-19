@@ -9,7 +9,6 @@ import Footer from "../components/Footer";
 export default function About() {
   return (
     <div>
-      <title>ABOUT US</title>
       <Header />
       <section
         className="text-gray-600 body-font overflow-hidden"
@@ -19,9 +18,11 @@ export default function About() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-12">
             <div className="p-12 md:w-1/2 flex flex-col items-start">
-              <span className="inline-block py-1 px-2 rounded bg-purple-50 text-purple-500 text-xs font-medium tracking-widest">
-                CATEGORY
-              </span>
+              <img
+                alt="blog"
+                src="https://dummyimage.com/104x104"
+                className="w-40 h-40 rounded-full flex-shrink-0 object-cover object-center"
+              />
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
                 Roof party normcore before they sold out, cornhole vape
               </h2>
@@ -35,7 +36,7 @@ export default function About() {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                 <a
-                  className="text-purple-500 inline-flex items-center"
+                  className="text-indigo-700 inline-flex items-center"
                   href="https://github.com/divyamprusty"
                 >
                   Learn More
@@ -83,12 +84,7 @@ export default function About() {
                 </span>
               </div>
               <a className="inline-flex items-center">
-                <img
-                  alt="blog"
-                  src="https://dummyimage.com/104x104"
-                  className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                />
-                <span className="flex-grow flex flex-col pl-4">
+                <span className="flex-grow flex flex-col">
                   <span className="title-font font-medium text-gray-900">
                     DIVYAM PRUSTY
                   </span>
@@ -99,9 +95,11 @@ export default function About() {
               </a>
             </div>
             <div className="p-12 md:w-1/2 flex flex-col items-start">
-              <span className="inline-block py-1 px-2 rounded bg-purple-50 text-purple-500 text-xs font-medium tracking-widest">
-                CATEGORY
-              </span>
+              <img
+                alt="blog"
+                src="https://dummyimage.com/103x103"
+                className="w-40 h-40 rounded-full flex-shrink-0 object-cover object-center"
+              />
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
                 Pinterest DIY dreamcatcher gentrify single-origin coffee
               </h2>
@@ -113,7 +111,7 @@ export default function About() {
               </p>
               <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                 <a
-                  className="text-purple-500 inline-flex items-center"
+                  className="text-indigo-700 inline-flex items-center"
                   href="https://github.com/GarvJain03"
                 >
                   Learn More
@@ -161,12 +159,7 @@ export default function About() {
                 </span>
               </div>
               <a className="inline-flex items-center">
-                <img
-                  alt="blog"
-                  src="https://dummyimage.com/103x103"
-                  className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                />
-                <span className="flex-grow flex flex-col pl-4">
+                <span className="flex-grow flex flex-col">
                   <span className="title-font font-medium text-gray-900">
                     GARV JAIN
                   </span>
@@ -178,20 +171,20 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div
-          className="icon-container"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-        >
-          <Link className="icon-container" href="/" passHref>
-            <FontAwesomeIcon icon={faAngleLeft} className="icon vert-move" />
-          </Link>
-          <Link className="icon-container" href="/contact" passHref>
-            <FontAwesomeIcon icon={faAngleRight} className="icon vert-move" />
-          </Link>
-        </div>
       </section>
-      <Footer/>
+      <div
+        className="icon-container"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
+        <Link className="icon-container" href="/" passHref>
+          <FontAwesomeIcon icon={faAngleLeft} className="icon vert-move" />
+        </Link>
+        <Link className="icon-container" href="/contact" passHref>
+          <FontAwesomeIcon icon={faAngleRight} className="icon vert-move" />
+        </Link>
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,13 +1,17 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
+import FAQ from "../components/Contact/FAQ";
 
 export default function Contact() {
   const HandleSubmit = () => {};
 
   return (
     <div>
-      <title>CONTACT</title>
       <Header />
       <section
         className="text-gray-600 body-font relative"
@@ -49,7 +53,7 @@ export default function Contact() {
                       type="text"
                       id="name"
                       name="name"
-                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
                 </div>
@@ -65,7 +69,7 @@ export default function Contact() {
                       type="email"
                       id="email"
                       name="email"
-                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
                 </div>
@@ -80,14 +84,14 @@ export default function Contact() {
                     <textarea
                       id="message"
                       name="message"
-                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                     ></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">
                   <button
                     type="reset"
-                    className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+                    className="flex mx-auto text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                   >
                     Submit
                   </button>
@@ -162,7 +166,20 @@ export default function Contact() {
             </div>
           </div>
         </form>
+        <FAQ />
       </section>
+      <div
+        className="icon-container"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
+        <Link className="icon-container" href="/about" passHref>
+          <FontAwesomeIcon icon={faAngleLeft} className="icon vert-move" />
+        </Link>
+        <Link className="icon-container" href="/pricing" passHref>
+          <FontAwesomeIcon icon={faAngleRight} className="icon vert-move" />
+        </Link>
+      </div>
       <Footer />
     </div>
   );
