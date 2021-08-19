@@ -1,4 +1,7 @@
 import React from "react";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 function Reviews() {
   return (
@@ -58,7 +61,7 @@ function Reviews() {
                 <a className="inline-flex items-center">
                   <img
                     alt="testimonial"
-                    src="https://dummyimage.com/107x107"
+                    src="https://dummyimage.com/106x106"
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
@@ -71,6 +74,15 @@ function Reviews() {
               </div>
             </div>
           </div>
+        </div>
+        <div
+          className="icon-container"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <Link className="icon-container" href="/about" passHref>
+            <FontAwesomeIcon icon={faAngleRight} className="icon" />
+          </Link>
         </div>
       </section>
     </div>
