@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 export default function Pricing() {
   return (
     <div>
+      <title>PRICING</title>
       <Header />
       <section className="text-gray-600 body-font">
         <div className="text-center">

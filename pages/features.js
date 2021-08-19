@@ -5,6 +5,7 @@ import Header from "../components/Header";
 export default function Features() {
   return (
     <div>
+      <title>FEATURES</title>
       <Header />
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex flex-col">

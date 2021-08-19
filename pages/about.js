@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 export default function About() {
   return (
     <div>
+      <title>ABOUT US</title>
       <Header />
       <section
         className="text-gray-600 body-font overflow-hidden"

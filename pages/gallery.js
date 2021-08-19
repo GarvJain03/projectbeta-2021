@@ -6,6 +6,7 @@ import Gallery from "../components/Gallery";
 export default function GalleryPage() {
   return (
     <div>
+      <title>GALLERY</title>
       <Header />
         <Gallery embedId="JLmOteqmDYc" />
         <Gallery embedId="8tjMM67-aao"/>
