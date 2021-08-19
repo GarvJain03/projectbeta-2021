@@ -12,7 +12,7 @@ export default function Pricing() {
             Pricing
           </h1>
         </div>
-        <div className="container px-5 py-20 mx-auto">
+        <div className="container px-5 py-20 mx-auto" data-aos="zoom-in-up">
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-gray-200 rounded-lg">
               <a className="block relative h-48 rounded overflow-hidden">

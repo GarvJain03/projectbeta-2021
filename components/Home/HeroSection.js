@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import R2D2 from "../../public/R2D2.png";
 import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 
 function HeroSection() {
   return (
@@ -14,6 +15,8 @@ function HeroSection() {
           <div
             className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
             data-aos="slide-left"
+            data-aos-duration="4000"
+            transition-duration="4000ms"
           >
             <h1
               style={{ color: "#14183E" }}
@@ -44,6 +47,8 @@ function HeroSection() {
           <div
             className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
             data-aos="slide-right"
+            data-aos-duration="4000"
+            transition-duration="4000ms"
           >
             <Image
               className="object-cover object-center rounded"
@@ -53,9 +58,11 @@ function HeroSection() {
           </div>
         </div>
       </section>
-      <a className="icon-container" href="#mission">
-        <FontAwesomeIcon icon={faAngleDown} className="icon animate-bounce" />
-      </a>
+      <span className="icon-container">
+        <ScrollLink to="mission" spy={true} smooth={true}>
+          <FontAwesomeIcon icon={faAngleDown} className="icon animate-bounce" />
+        </ScrollLink>
+      </span>
     </div>
   );
 }
