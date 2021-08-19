@@ -3,7 +3,7 @@ import React from "react";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import R2D2 from "../../public/gallery/R2.png";
+import R2D2 from "../../public/R2.png";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import { appName } from "../../lib/constants";

@@ -1,13 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Robot from "../../public/gallery/R2.png";
-import Robot1 from "../../public/gallery/R2_1.png";
-import Robot2 from "../../public/gallery/R2_2.png";
-import Robot3 from "../../public/gallery/R2_3.png";
-import Robot4 from "../../public/gallery/R2_4.png";
-import Robot5 from "../../public/gallery/R2_5.png";
-import Robot6 from "../../public/gallery/R2_6.png";
-import Robot7 from "../../public/gallery/R2_7.png";
 
 function Products() {
   return (
@@ -28,7 +20,10 @@ function Products() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src={Robot}
+                  src="https://media.discordapp.net/attachments/869407124223053868/877972580349407232/R2.png?width=814&height=610"
+                  width="50"
+                  height="50"
+                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -46,7 +41,10 @@ function Products() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src={Robot1}
+                  src="https://media.discordapp.net/attachments/869407124223053868/877972586049466428/R2_2.png?width=814&height=610"
+                  width="50"
+                  height="50"
+                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -64,7 +62,10 @@ function Products() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src={Robot2}
+                  src="https://media.discordapp.net/attachments/869407124223053868/877972588461166602/R2_1.png?width=814&height=610"
+                  width="50"
+                  height="50"
+                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -82,7 +83,10 @@ function Products() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src={Robot3}
+                  src="https://media.discordapp.net/attachments/869407124223053868/877972590491230299/R2_4.png?width=814&height=610"
+                  width="50"
+                  height="50"
+                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -100,7 +104,10 @@ function Products() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src={Robot4}
+                  src="https://media.discordapp.net/attachments/869407124223053868/877972592366088264/R2_3.png?width=814&height=610"
+                  width="50"
+                  height="50"
+                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -118,7 +125,10 @@ function Products() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src={Robot5}
+                  src="https://media.discordapp.net/attachments/869407124223053868/877972595046240337/R2_5.png?width=814&height=610"
+                  width="50"
+                  height="50"
+                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -136,7 +146,10 @@ function Products() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src={Robot6}
+                  src="https://media.discordapp.net/attachments/869407124223053868/877972596279361546/R2_6.png?width=814&height=610"
+                  width="50"
+                  height="50"
+                  layout="fill"
                 />
               </a>
               <div className="mt-4">
@@ -154,7 +167,10 @@ function Products() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src={Robot7}
+                  src="https://media.discordapp.net/attachments/869407124223053868/877972596606505040/R2_7.png?width=814&height=610"
+                  width="50"
+                  height="50"
+                  layout="fill"
                 />
               </a>
               <div className="mt-4">
