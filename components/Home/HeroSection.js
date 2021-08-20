@@ -23,9 +23,13 @@ function HeroSection() {
               The Artoo-Detoo
             </h1>
             <p className="mb-8 leading-relaxed">
-              R2D2 also known as Artoo-Detoo is your go to companion. Ranging
-              from the plug of your television to the engine of your car, it can
-              fix anything in just a span of few minutes. Developed by a team of
+              R2-D2 (or Artoo-Detoo, spelled out phonetically) is an astromech
+              droid, a type of robot that usually served as a mechanic and
+              backup computer for small spaceships. Astromechs cannot speak,
+              they communicate with electronic beeps through an interpreter
+              droid or computer. It is your go to companion. Ranging from the
+              plug of your television to the engine of your car, it can fix
+              anything in just a span of few minutes. Developed by a team of
               dedicated engineers of the galaxy known as {appName} on the design
               of the famous Rebel Hero, Artoo serves as the connecting cord
               between humans and machines.
@@ -33,7 +37,6 @@ function HeroSection() {
             <div className="flex justify-center">
               <button
                 style={{
-                  borderRadius: "20px",
                   filter:
                     "drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25))",
                 }}

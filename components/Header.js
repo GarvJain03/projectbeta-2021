@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Toggle from "./Toggle";
 import { appName } from "../lib/constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRobot } from "@fortawesome/free-solid-svg-icons";
@@ -9,7 +8,7 @@ function Header() {
   return (
     <div className="headerelements">
       <header
-        className="text-gray-600 body-font"
+        className="nav text-gray-600 body-font bg-white"
         data-aos="slide-up"
         data-aos-duration="1000"
       >
@@ -30,36 +29,23 @@ function Header() {
               {appName}
             </span>
           </span>
-          <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <span className="mr-5 hover:text-gray-900">
-              <Link className="mr-5 hover:text-gray-900" href="/">
-                Home
-              </Link>
+          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <span className="transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-blue-300 ">
+              <Link href="/">Home</Link>
             </span>
-            <span className="mr-5 hover:text-gray-900">
-              <Link className="mr-5 hover:text-gray-900" href="/about">
-                About Us
-              </Link>
+            <span className="transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-blue-300">
+              <Link href="/about">About Us</Link>
             </span>
-            <span className="mr-5 hover:text-gray-900">
-              <Link className="mr-5 hover:text-gray-900" href="/contact">
-                Contact
-              </Link>
+            <span className="transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-blue-300">
+              <Link href="/contact">Contact</Link>
             </span>
-            <span className="mr-5 hover:text-gray-900">
-              <Link className="mr-5 hover:text-gray-900" href="/pricing">
-                Pricing
-              </Link>
+            <span className="transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-blue-300">
+              <Link href="/pricing">Pricing</Link>
             </span>
-            <span className="mr-5 hover:text-gray-900">
-              <Link className="mr-5 hover:text-gray-900" href="/gallery">
-                Gallery
-              </Link>
+            <span className="transition duration-500 ease-in-out p-2 rounded mr-5 hover:bg-blue-300">
+              <Link href="/gallery">Gallery</Link>
             </span>
           </nav>
-          <button className="inline-flex items-center border-0 py-1 px-3 mt-4 md:mt-0">
-            <Toggle />
-          </button>
         </div>
       </header>
     </div>

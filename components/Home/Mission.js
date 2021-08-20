@@ -1,4 +1,8 @@
-import { faBolt, faMoneyBill, faWheelchair } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBolt,
+  faMoneyBill,
+  faWheelchair,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
@@ -11,7 +15,7 @@ function Mission() {
             <h2 className="text-xs text-indigo-700 tracking-widest font-medium title-font mb-1">
               CUSTOMER SATISFACTION
             </h2>
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-bold title-font text-gray-900">
               Our Ethos
             </h1>
           </div>
