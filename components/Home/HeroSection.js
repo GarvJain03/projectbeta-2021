@@ -60,7 +60,7 @@ function HeroSection() {
         to="mission"
         spy={true}
         smooth={true}
-        duration={100}
+        duration={500}
         className="icon-container"
       >
         <FontAwesomeIcon icon={faAngleDown} className="icon animate-bounce" />
