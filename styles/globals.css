@@ -8,7 +8,6 @@
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 h1 {
@@ -18,11 +17,6 @@ h1 {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-body.dark {
-  background-color: #111827;
-  transition: 0.5s;
 }
 
 .icon-container {
@@ -89,4 +83,15 @@ body.dark {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.headerelements {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }
