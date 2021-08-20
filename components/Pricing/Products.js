@@ -6,7 +6,7 @@ function Products() {
     <div>
       <section className="text-gray-600 body-font">
         <div className="text-center">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mt-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-bold title-font mt-4 text-gray-900">
             Pricing
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base pt-5">

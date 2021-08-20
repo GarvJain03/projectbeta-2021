@@ -4,7 +4,7 @@ function FAQ() {
   const [question, setquestion] = useState(0);
   return (
     <div>
-      <div className="container mx-auto pt-16">
+      <div className="container mx-auto pt-16 bg-gray-100">
         <div className="text-center pb-3 md:pb-10 xl:pb-20">
           <h1 className="px-2 xl:px-0 xl:text-3xl md:text-2xl text-xl font-bold text-gray-800">
             Frequently Asked Questions

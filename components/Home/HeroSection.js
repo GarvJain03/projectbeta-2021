@@ -40,7 +40,7 @@ function HeroSection() {
                   filter:
                     "drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25))",
                 }}
-                className="transition duration-500 ease-in-out inline-flex text-gray-900 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 rounded text-lg"
+                className="transition duration-500 ease-in-out inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 rounded text-lg"
               >
                 <Link href="/features">Read More</Link>
               </button>

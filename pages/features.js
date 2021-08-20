@@ -22,8 +22,8 @@ export default function Features() {
             layout="fill"
           />
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              FEATURES
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
+              Features
             </h1>
             <p className="mb-8 leading-relaxed">
               R2-D2 stands for Second Generation Robotic Droid Series-2,
